@@ -1,0 +1,5 @@
+{
+    "name":"bala",
+     "age":25,
+     "mail":"bala@gmail.com"
+}

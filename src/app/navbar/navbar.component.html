@@ -1,0 +1,10 @@
+<nav class="navbar navbar-dark  bg-primary   mb-5">
+  <a class="navbar-brand" href="/">Workout Tracker App</a>
+  <div class="navbar-expand mr-auto">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" (click)="newMessage('Edit Employee')"  [routerLinkActive]="['active']"  routerLink="employees/1">Employees</a>
+      <a class="nav-item nav-link active" (click)="newMessage('Add Employee')" [routerLinkActive]="['active']" routerLink="employees/new">Add Employees</a>
+    </div>
+  </div>
+
+</nav>      
